@@ -30,7 +30,10 @@ Quarto's="1.7.31" "1.6.42" "1.5.54"
 Secondly, a user either is the owner of the app it plans to migrate or having the admin rights under the app. 
 
 Thirdly,users need to be within AVD to be able to undertake the tasks needed for deployment.
- 
+
+And lastly, the migration of R, Quarto and Python apps are similar to the point of actual deployment. The difference lies specifically,at the point of migrating the app from the IDE of your choice (RStudio or JupyterLab) 
+
+
 ## Scenarion 1 - Downloading the app as a bundle and redeployment 
 
 Steps are: 
@@ -43,7 +46,6 @@ NOTE: You have to be on to old Posit Connect.
 ```{r old-connect, echo=FALSE, out.width = '100%'}
 
 knitr::include_graphics("data/Screenshot_1.png")
-
 
 ```
 
